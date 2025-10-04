@@ -19,7 +19,7 @@ echo "Then, install the required compilers"
 pip install pyinstaller
 pyinstaller -F main.py --name mtosme-pkg
 echo "Compilation complete, you can use it normally"
-mv mtosme-pkg ~/../usr/bin
+mv build/mtosme-pkg ~/../usr/bin
 # Or you're not termux. You can also carry out this order
 # mv mtosme-pkg /usr/bin
 # Remember. Don't put it down /usr/lib, because this is not the directory where the binaries are
